@@ -12,7 +12,7 @@ I started my career in an information agency as a web developer, but was soon fo
 I have been working in the IT field for more than 20 years. In my work, I try to close the uncovered areas of work in the department as much as possible, so during this time I worked in different positions. Sometimes the field of activity had to be changed radically. I like to acquire new skills and knowledge, as well as apply them in practice. 
 
 
-# Work experience 
+# Work experience
 * Software developer -> lead software engineer -> main specialist JSC STN (11.2012 – present time)
 
 * Engineer (system administrator, network engineer) of the Information Technology Department, branch of JSC STN (12.2007 – 11.2012)
@@ -26,7 +26,7 @@ I have been working in the IT field for more than 20 years. In my work, I try to
 # Education
 Omsk State University of Railway Engineering (September 1994 – June 2000), higher technical education, engineer qualification, specialty “Management and Computer Science in Technical systems".
 
-# Qualifications 
+# Qualifications
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
 * Yandex.Practicum DevOps for operation and development (in progress)
@@ -35,7 +35,7 @@ Omsk State University of Railway Engineering (September 1994 – June 2000), hig
 
 * Authorized Oracle Training Center "Sibinfocenter", Novosibirsk (February 2011): 11gNF (11g: new features)
 
-* Authorized Cisco Training Center "Sibinfocenter", Novosibirsk (November 2010): Interconnect Cisco Networking Devices Part 1 (ICND1), 
+* Authorized Cisco Training Center "Sibinfocenter", Novosibirsk (November 2010): Interconnect Cisco Networking Devices Part 1 (ICND1)
 
 * Oracle OCP DBA 10g (June 2010)
  
@@ -52,10 +52,10 @@ Git, VS Code
 Sum of two smallest numbers from array KATA from CODEWARS:
 
 ```
-function sumTwoSmallestNumbers(numbers) {  
+function sumTwoSmallestNumbers(numbers) {
   var arr = numbers.sort((a, b) => (a - b));
   return arr[0] + arr[1];
-};`
+};
 ```
 
 # Languages:
