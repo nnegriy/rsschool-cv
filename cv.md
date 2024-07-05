@@ -3,6 +3,7 @@
 
 # Contact information:
 * E-mail: nnegriy@gmail.com
+* Discord: @np_n_
 
 # Objective
 I started my career in an information agency as a web developer, but was soon forced to change my field of activity. During this time web-technology has gone far ahead. I hope my studies at RS-School will help me to bridge this gap becoming a proficient Fullstack Developer (there is an experience developing have been programming the backend on Oracle software solutions).
