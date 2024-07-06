@@ -1,5 +1,5 @@
 # Nikolay Negriy
-![Avatar](img/avatar-rs.jpg "Avatar")
+![Avatar](assets/img/avatar-rs.jpg "Avatar")
 
 # Contact information:
 * E-mail: nnegriy@gmail.com
