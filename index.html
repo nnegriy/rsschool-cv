@@ -6,123 +6,135 @@
   <title>Nikolay Negriy CV</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <div>
-    <header>
-      <div>
-        <img src="assets/img/avatar-rs.jpg" alt="Nikolay Negriy">
-        <h1>Nikolay Negriy</h1>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#contacts">Contacts</a></li>
-          <li><a href="#objective"></a>Objective</li>
-          <li><a href="#about"></a>About</li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education"></a>Education</li>
-          <li><a href="#qualifications"></a>Qualifications</li>
-          <li><a href="#skills"></a>Skills</li>
-          <li><a href="#code"></a>Code example</li>
-          <li><a href="#languages"></a>Languages</li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h2 id="contacts">Contacts</h2>
-        <p>
+<body class="body--outer">
+  <nav class="nav--top">
+    <ul class="ul--nav">
+      <li class="li--nav"><a class="link--nav" href="#about">About</a></li>
+      <li class="li--nav"><a class="link--nav" href="#contacts">Contacts</a></li>
+      <li class="li--nav"><a class="link--nav" href="#objective">Objective</a></li>
+      <li class="li--nav"><a class="link--nav" href="#experience">Experience</a></li>
+      <li class="li--nav"><a class="link--nav" href="#education">Education</a></li>
+      <li class="li--nav"><a class="link--nav" href="#qualifications">Qualifications</a></li>
+      <li class="li--nav"><a class="link--nav" href="#skills">Skills</a></li>
+      <li class="li--nav"><a class="link--nav" href="#code">Code</a></li>
+      <li class="li--nav"><a class="link--nav" href="#languages">Languages</a></li>
+    </ul>
+  </nav>
+  <div class="div--centered">
+    <div class="div--inner">
+      <header class="header">
+        <div>
+          <img src="assets/img/avatar-rs.jpg" alt="Nikolay Negriy">
+        </div>
+        <section class="section--about" id="about">
+          <h1 class="h1--left">Nikolay Negriy</h1>
+            <h2 class="h2--left">Software developer</h2>
+          <p>I have been working in the IT field for more than 20 years. In my work, I try to close the uncovered areas of work in the department as much as possible, so during this time I worked in different positions. Sometimes the field of activity had to be changed radically. I like to acquire new skills and knowledge, as well as apply them in practice.</p>
+        </section>
+      </header>
+      <main>
+        <section>
+          <h2 id="contacts" class="h2--left">Contacts</h2>
+          <p>
+            <ul>
+              <li>
+                E-mail: <a class="link--text" href="mailto:nnegriy@gmail.com">nnegriy@gmail.com</a>
+              </li>
+              <li>
+                Discord: <a class="link--text" target="_blank" href="https://discordapp.com/users/1086762220521795634" rel="noopener noreferrer">@np_n_</a>
+              </li>
+            </ul>
+          </p>
+        </section>
+        <section>
+          <h2 id="objective" class="h2--left">Objective</h2>
+          <p>I started my career in an information agency as a web developer, but was soon forced to change my field of activity. During this time web-technology has gone far ahead. I hope my studies at RS-School will help me to bridge this gap becoming a proficient Fullstack Developer (there is an experience developing have been programming the backend on Oracle software solutions).</p>
+        </section>
+        <section>
+          <h2 id="experience" class="h2--left">Work experience</h2>
+          <p>
+            <ul>
+              <li>Software developer &#10153; lead software engineer &#10153; main specialist JSC STN (11.2012 &ndash; present time)</li>
+              <li>Engineer (system administrator, network engineer) of the Information Technology Department, branch of JSC STN (12.2007 &ndash; 11.2012)</li>
+              <li>Software developer "Laboratory of Systems 321" (09.2007 &ndash; 12.2007)</li>
+              <li>Software developer, system administrator of Delovoy Omsk Information Agency LLC (09.2002 &ndash; 08.2007)</li>
+              <li>Software developer, database administrator “IMEK" &ndash; Institute of Management of Informatics and Economics of Omsk State University of Railway Engineering (01.2002 &ndash; 09.2002)</li>
+            </ul>
+          </p>
+        </section>
+        <section>
+          <h2 id="education" class="h2--left">Education</h2>
+          <p>Omsk State University of Railway Engineering (September 1994 &ndash; June 2000), higher technical education, engineer qualification, specialty “Management and Computer Science in Technical systems".</p>
+        </section>
+        <section>
+          <h2 id="qualification" class="h2--left">Qualifications</h2>
+          <ul>
+            <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+            <li>Yandex.Practicum DevOps for operation and development (in progress)</li>
+            <li>Sunday School of Thumbtack Developers (2019), Omsk</li>
+            <li>Authorized Oracle Training Center "Sibinfocenter", Novosibirsk (February 2011): 11gNF (11g: new features)</li>
+            <li>Authorized Cisco Training Center "Sibinfocenter", Novosibirsk (November 2010): Interconnect Cisco Networking Devices Part 1 (ICND1)</li>
+            <li>Oracle OCP DBA 10g (June 2010)</li>
+            <li>Oracle OCA DBA 10g (November 2007)</li>
+            <li>Authorized Oracle Training Center "Sibinfocenter", Novosibirsk (March 2007): 10gDBAII  (Administration of Oracle 10g. Part II)</li>
+          </ul>
+        </section>
+        <section>
+          <h2 id="skills" class="h2--left">Skills</h2>
+          <ul>
+            <li>Oracle PL/SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript Basics</li>
+            <li>Git</li>
+            <li>VSCode</li>
+          </ul>
+        </section>
+        <section>
+          <h2 id="example" class="h2--left">Code example</h2>
+          <h3 class="h3--left">Sum of two smallest numbers from array KATA from CODEWARS:</h3>
+          <p class="code--listing">function sumTwoSmallestNumbers(numbers) {<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;var arr = numbers.sort((a, b) => (a - b));<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;return arr[0] + arr[1];<br>
+          };</p>
+          <h3 class="h3--left">Education project:</h3>
           <ul>
             <li>
-              E-mail: <a href="mailto:nnegriy@gmail.com">nnegriy@gmail.com</a>
-            </li>
-            <li>
-              Discord: <a target="_blank" href="https://discordapp.com/users/1086762220521795634" rel="noopener noreferrer">@np_n_</a>
+              <a class="link--text" href="https://github.com/nnegriy/rsschool-cv">Layout coding of CV</a>
             </li>
           </ul>
-        </p>
-      </section>
-      <section>
-        <h2 id="objective">Objective</h2>
-        <p>I started my career in an information agency as a web developer, but was soon forced to change my field of activity. During this time web-technology has gone far ahead. I hope my studies at RS-School will help me to bridge this gap becoming a proficient Fullstack Developer (there is an experience developing have been programming the backend on Oracle software solutions).</p>
-      </section>
-      <section>
-        <h2 id="about">Briefly About Myself</h2>
-        <p>I have been working in the IT field for more than 20 years. In my work, I try to close the uncovered areas of work in the department as much as possible, so during this time I worked in different positions. Sometimes the field of activity had to be changed radically. I like to acquire new skills and knowledge, as well as apply them in practice.</p>
-      </section>
-      <section>
-        <h2 id="experience">Work experience</h2>
-        <p>
+        </section>
+        <section>
+          <h2 id="languages" class="h2--left">Languages</h2>
           <ul>
-            <li>Software developer &#10153; lead software engineer &#10153; main specialist JSC STN (11.2012 &ndash; present time)</li>
-            <li>Engineer (system administrator, network engineer) of the Information Technology Department, branch of JSC STN (12.2007 &ndash; 11.2012)</li>
-            <li>Software developer "Laboratory of Systems 321" (09.2007 &ndash; 12.2007)</li>
-            <li>Software developer, system administrator of Delovoy Omsk Information Agency LLC (09.2002 &ndash; 08.2007)</li>
-            <li>Software developer, database administrator “IMEK" &ndash; Institute of Management of Informatics and Economics of Omsk State University of Railway Engineering (01.2002 &ndash; 09.2002)</li>
+            <li>Russian - Native</li>
+            <li>English - Pre Intermediate</li>
           </ul>
-        </p>
-      </section>
-      <section>
-        <h2 id="education">Education</h2>
-        <p>Omsk State University of Railway Engineering (September 1994 &ndash; June 2000), higher technical education, engineer qualification, specialty “Management and Computer Science in Technical systems".</p>
-      </section>
-      <section>
-        <h2 id="qualification">Qualifications</h2>
-        <ul>
-          <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-          <li>Yandex.Practicum DevOps for operation and development (in progress)</li>
-          <li>Sunday School of Thumbtack Developers (2019), Omsk</li>
-          <li>Authorized Oracle Training Center "Sibinfocenter", Novosibirsk (February 2011): 11gNF (11g: new features)</li>
-          <li>Authorized Cisco Training Center "Sibinfocenter", Novosibirsk (November 2010): Interconnect Cisco Networking Devices Part 1 (ICND1)</li>
-          <li>Oracle OCP DBA 10g (June 2010)</li>
-          <li>Oracle OCA DBA 10g (November 2007)</li>
-          <li>Authorized Oracle Training Center "Sibinfocenter", Novosibirsk (March 2007): 10gDBAII  (Administration of Oracle 10g. Part II)</li>
-        </ul>
-      </section>
-      <section>
-        <h2 id="skills">Skills</h2>
-        <ul>
-          <li>Oracle PL/SQL</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript Basics</li>
-          <li>Git</li>
-          <li>VSCode</li>
-        </ul>
-      </section>
-      <section>
-        <h2 id="example">Code example</h2>
-        <h3>Sum of two smallest numbers from array KATA from CODEWARS:</h3>
-        <p>function sumTwoSmallestNumbers(numbers) {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;var arr = numbers.sort((a, b) => (a - b));<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;return arr[0] + arr[1];<br>
-        };</p>
-        <h3>Education project:</h3>
-        <ul>
-          <li>
-            <a href="https://github.com/nnegriy/rsschool-cv">
-              Layout coding of CV
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2 id="languages">Languages</h2>
-        <ul>
-          <li>Russian - Native</li>
-          <li>English - Pre Intermediate</li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <a href="https://github.com/nnegriy" alt="Projects on GitHub" data-hotkey="g d" aria-label="Homepage " data-turbo="false" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;}">
-        <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle color-fg-default">
-  <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
-        </svg>
-      </a>
+        </section>
+      </main>
+    </div>
+    <footer class="footer--bottom">
+      <p>
+        <a class="footer--a" href="https://github.com/nnegriy" alt="Projects on GitHub" data-hotkey="g d" aria-label="Homepage " data-turbo="false" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;}">
+          <svg  class="footer--icon" aria-hidden="true" viewBox="0 0 16 16" version="1.1" height=32 width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle color-fg-default">
+            <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+         </svg>
+        </a>
+      </p>
       <p>&copy 2024</p>
-      <a href="https://rs.school/courses/javascript-preschool-ru">
-        <img src="assets/icons/rs_school.svg" alt="RSSchool Start Course" width="80" height="32">
-      </a>
+      <p>
+        <a class="footer--a" href="https://rs.school/courses/javascript-preschool-ru">
+          <svg class="footer--icon" width="80" height="29" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 552.85 198.67">
+            <title>rs_school</title>
+            <g data-name="Layer 2">
+              <g data-name="Layer 1">
+                <path d="M275.36 61.37l26.29-1.65q.86 6.41 3.48 9.76 4.28 5.43 12.2 5.43 5.91 0 9.12-2.77a8.34 8.34 0 0 0 3.2-6.44 8.18 8.18 0 0 0-3-6.22q-3-2.74-14.15-5.19-18.18-4.08-25.93-10.86a21.84 21.84 0 0 1-7.81-17.26 23.44 23.44 0 0 1 4-13 26.47 26.47 0 0 1 12-9.64q8-3.51 22-3.51 17.14 0 26.14 6.38t10.71 20.28l-26.05 1.52q-1-6-4.36-8.78t-9.2-2.77c-3.21 0-5.63.69-7.25 2.05a6.25 6.25 0 0 0-2.44 5 5 5 0 0 0 2 3.84q1.95 1.77 9.27 3.3 18.12 3.9 26 7.9t11.4 9.91a25.12 25.12 0 0 1 3.57 13.24 28.37 28.37 0 0 1-4.75 15.86 29.83 29.83 0 0 1-13.3 11q-8.55 3.75-21.54 3.75-22.81 0-31.6-8.78t-10-22.35zM6.27 91V1.53h46.06q12.81 0 19.58 2.19a20.93 20.93 0 0 1 10.92 8.14A24.75 24.75 0 0 1 87 26.35a24.8 24.8 0 0 1-3.2 12.84A24.91 24.91 0 0 1 75.07 48a33.63 33.63 0 0 1-9.7 3.54 27.79 27.79 0 0 1 7.19 3.29A27.79 27.79 0 0 1 77 59.49 35.16 35.16 0 0 1 80.85 65l13.38 26H63L48.24 63.63q-2.81-5.31-5-6.9a11.63 11.63 0 0 0-6.78-2.07H34V91zM34 37.76h11.68A41 41 0 0 0 53 36.54a7.3 7.3 0 0 0 4.48-2.81 8.24 8.24 0 0 0 1.74-5.18 8.23 8.23 0 0 0-2.75-6.65q-2.74-2.32-10.31-2.32H34zM0 167.56l26.29-1.64q.86 6.41 3.48 9.76Q34 181.11 42 181.11q5.91 0 9.12-2.78a8.34 8.34 0 0 0 3.2-6.44 8.2 8.2 0 0 0-3-6.22q-3-2.74-14.15-5.18-18.18-4.1-25.93-10.86a21.87 21.87 0 0 1-7.81-17.27 23.49 23.49 0 0 1 4-13 26.47 26.47 0 0 1 12-9.64q8-3.51 22-3.51 17.14 0 26.14 6.38t10.71 20.28l-26 1.53q-1-6-4.36-8.79t-9.19-2.74q-4.81 0-7.25 2a6.25 6.25 0 0 0-2.44 5 5 5 0 0 0 2 3.85q1.95 1.77 9.27 3.29 18.12 3.9 26 7.9t11.4 9.91a25.15 25.15 0 0 1 3.57 13.24 28.35 28.35 0 0 1-4.75 15.86 29.83 29.83 0 0 1-13.3 11q-8.55 3.75-21.54 3.75-22.81 0-31.6-8.78T0 167.56zm163-7.01l24.22 7.32a44.72 44.72 0 0 1-7.69 17 33.46 33.46 0 0 1-13 10.31q-7.78 3.47-19.8 3.47-14.58 0-23.82-4.23t-16-14.91q-6.72-10.67-6.71-27.31 0-22.18 11.8-34.11t33.4-11.92q16.91 0 26.57 6.84t14.36 21l-24.4 5.43a21 21 0 0 0-2.68-6 16 16 0 0 0-5.67-4.88 16.31 16.31 0 0 0-7.51-1.71q-9.39 0-14.39 7.56-3.8 5.61-3.79 17.61 0 14.86 4.52 20.38t12.69 5.51q7.92 0 12-4.45t5.9-12.91zm45.51-52.83h27.63V139h30.2v-31.28h27.75v89.43h-27.75V161h-30.2v36.18h-27.63zm102.78 44.77q0-21.88 12.2-34.1t34-12.2q22.32 0 34.4 12T404 151.76q0 15.69-5.28 25.72a37.54 37.54 0 0 1-15.25 15.61q-10 5.58-24.86 5.58-15.12 0-25-4.82a37.59 37.59 0 0 1-16.07-15.25q-6.26-10.42-6.25-26.11zm27.63.13q0 13.55 5 19.46t13.7 5.91q8.91 0 13.79-5.79t4.88-20.8q0-12.63-5.1-18.46t-13.82-5.82A16.78 16.78 0 0 0 344 133q-5.07 6-5.08 19.62z"/><path d="M392.28 152.49q0-21.88 12.2-34.1t34-12.2q22.34 0 34.41 12t12.07 33.58q0 15.69-5.27 25.72a37.6 37.6 0 0 1-15.25 15.61q-10 5.58-24.86 5.58-15.13 0-25-4.82a37.67 37.67 0 0 1-16.08-15.25q-6.22-10.43-6.22-26.12zm27.64.13q0 13.55 5 19.46t13.72 5.92q8.91 0 13.79-5.79t4.88-20.8q0-12.63-5.09-18.46t-13.82-5.82A16.77 16.77 0 0 0 425 133q-5.09 6-5.08 19.62z"/>
+                <path d="M482.08 107.72h27.64v67.41h43.13v22h-70.77z"/>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </p>
     </footer>
   </div>
 </body>
