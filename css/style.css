@@ -80,6 +80,10 @@
   margin: 20px;
 }
 
+li {
+  margin-bottom: 10px;
+}
+
 section {
   scroll-margin-top: 56px;
 }
