@@ -1,5 +1,5 @@
 # Nikolay Negriy
-![Avatar](img/avatar-rs.jpg "Avatar")
+![Avatar](assets/img/avatar-rs.jpg "Avatar")
 
 # Contact information:
 * E-mail: nnegriy@gmail.com
@@ -46,7 +46,7 @@ Omsk State University of Railway Engineering (September 1994 – June 2000), hig
 # Skills
 Oracle PL/SQL,
 HTML, CSS, JavaScript Basics
-Git, VS Code
+Git, VSCode
 
 # Code example
 Sum of two smallest numbers from array KATA from CODEWARS:
