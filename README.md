@@ -1,3 +1,3 @@
 # rsschool-cv
 [MD-version CV] https://nnegriy.github.io/rsschool-cv/cv
-[HTML-version CV] https://nnegriy.github.io/rsschool-cv/index.html
+[HTML-version CV] https://nnegriy.github.io/rsschool-cv/
