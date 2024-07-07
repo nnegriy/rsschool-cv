@@ -7,34 +7,35 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="body--outer">
-  <nav class="nav--top">
-    <ul class="ul--nav">
-      <li class="li--nav"><a class="link--nav" href="#about">About</a></li>
-      <li class="li--nav"><a class="link--nav" href="#contacts">Contacts</a></li>
-      <li class="li--nav"><a class="link--nav" href="#objective">Objective</a></li>
-      <li class="li--nav"><a class="link--nav" href="#experience">Experience</a></li>
-      <li class="li--nav"><a class="link--nav" href="#education">Education</a></li>
-      <li class="li--nav"><a class="link--nav" href="#qualifications">Qualifications</a></li>
-      <li class="li--nav"><a class="link--nav" href="#skills">Skills</a></li>
-      <li class="li--nav"><a class="link--nav" href="#code">Code</a></li>
-      <li class="li--nav"><a class="link--nav" href="#languages">Languages</a></li>
-    </ul>
-  </nav>
   <div class="div--centered">
+    <nav class="nav--top">
+      <ul class="ul--nav">
+        <li class="li--nav"><a class="link--nav" href="#about">About</a></li>
+        <li class="li--nav"><a class="link--nav" href="#contacts">Contacts</a></li>
+        <li class="li--nav"><a class="link--nav" href="#objective">Objective</a></li>
+        <li class="li--nav"><a class="link--nav" href="#experience">Experience</a></li>
+        <li class="li--nav"><a class="link--nav" href="#education">Education</a></li>
+        <li class="li--nav"><a class="link--nav" href="#qualifications">Qualifications</a></li>
+        <li class="li--nav"><a class="link--nav" href="#skills">Skills</a></li>
+        <li class="li--nav"><a class="link--nav" href="#code">Code</a></li>
+        <li class="li--nav"><a class="link--nav" href="#languages">Languages</a></li>
+      </ul>
+    </nav>
     <div class="div--inner">
       <header class="header">
         <div>
           <img src="assets/img/avatar-rs.jpg" alt="Nikolay Negriy">
         </div>
-        <section class="section--about" id="about">
+        <section id="about" class="section--about">
           <h1 class="h1--left">Nikolay Negriy</h1>
             <h2 class="h2--left">Software developer</h2>
           <p>I have been working in the IT field for more than 20 years. In my work, I try to close the uncovered areas of work in the department as much as possible, so during this time I worked in different positions. Sometimes the field of activity had to be changed radically. I like to acquire new skills and knowledge, as well as apply them in practice.</p>
         </section>
       </header>
+      <div>
       <main>
-        <section>
-          <h2 id="contacts" class="h2--left">Contacts</h2>
+        <section id="contacts" class="section--cv">
+          <h2 class="h2--left">Contacts</h2>
           <p>
             <ul>
               <li>
@@ -46,12 +47,12 @@
             </ul>
           </p>
         </section>
-        <section>
-          <h2 id="objective" class="h2--left">Objective</h2>
+        <section id="objective">
+          <h2 class="h2--left">Objective</h2>
           <p>I started my career in an information agency as a web developer, but was soon forced to change my field of activity. During this time web-technology has gone far ahead. I hope my studies at RS-School will help me to bridge this gap becoming a proficient Fullstack Developer (there is an experience developing have been programming the backend on Oracle software solutions).</p>
         </section>
-        <section>
-          <h2 id="experience" class="h2--left">Work experience</h2>
+        <section id="experience">
+          <h2 class="h2--left">Work experience</h2>
           <p>
             <ul>
               <li>Software developer &#10153; lead software engineer &#10153; main specialist JSC STN<br><span class="date--text">11.2012 &ndash; present time</span></li>
@@ -62,12 +63,12 @@
             </ul>
           </p>
         </section>
-        <section>
-          <h2 id="education" class="h2--left">Education</h2>
+        <section id="education">
+          <h2 class="h2--left">Education</h2>
           <p>Omsk State University of Railway Engineering, higher technical education, engineer qualification, specialty “Management and Computer Science in Technical systems". <span class="date--text">(September 1994 &ndash; June 2000)</span></p>
         </section>
-        <section>
-          <h2 id="qualification" class="h2--left">Qualifications</h2>
+        <section id="qualifications">
+          <h2 class="h2--left">Qualifications</h2>
           <ul>
             <li>RS Schools Course «JavaScript/Front-end. Stage 0»<br><span class="date--text">(in progress)</span></li>
             <li>Yandex.Practicum DevOps for operation and development<br><span class="date--text">(in progress)</span></li>
@@ -79,8 +80,8 @@
             <li>Authorized Oracle Training Center "Sibinfocenter": Administration of Oracle 10g II<br><span class="date--text">March 2007</span></li>
           </ul>
         </section>
-        <section>
-          <h2 id="skills" class="h2--left">Skills</h2>
+        <section id="skills">
+          <h2 class="h2--left">Skills</h2>
           <ul>
             <li>Oracle PL/SQL</li>
             <li>HTML</li>
@@ -90,8 +91,8 @@
             <li>VSCode</li>
           </ul>
         </section>
-        <section>
-          <h2 id="example" class="h2--left">Code example</h2>
+        <section id="example">
+          <h2 class="h2--left">Code example</h2>
           <h3 class="h3--left">Sum of two smallest numbers from array KATA from CODEWARS:</h3>
           <p class="code--listing"><br>function sumTwoSmallestNumbers(numbers) {<br>
           &nbsp;&nbsp;&nbsp;&nbsp;var arr = numbers.sort((a, b) &rArr; (a - b));<br>
@@ -104,14 +105,15 @@
             </li>
           </ul>
         </section>
-        <section>
-          <h2 id="languages" class="h2--left">Languages</h2>
+        <section id="languages">
+          <h2 class="h2--left">Languages</h2>
           <ul>
             <li>Russian - Native</li>
             <li>English - Pre Intermediate</li>
           </ul>
         </section>
       </main>
+      </div>
     </div>
     <footer class="footer--bottom">
       <p>
