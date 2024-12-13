@@ -1,0 +1,168 @@
+.nav--top {
+  height: 48px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  background-color: #a96321;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  font-size: 16px;
+  font-weight: normal;
+} 
+
+.ul--nav {
+  list-style-type: none;
+  width: auto;
+}
+
+.li--nav {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  float: left;
+}
+
+.link--nav {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.link--nav:hover {
+  color: #38281e;
+}
+
+.link--text {
+  color: #7a340c;
+  text-decoration: none;
+}
+
+.link--text:hover {
+  color: #38281e;
+}
+
+.date--text {
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+}
+
+.body--outer {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  background: #f9f4eb;
+  color: #90542e;
+}
+
+.div--centered {
+  min-width: 1024px;
+  max-width: 1440px;
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  -webkit-box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.div--inner {
+  margin: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+section {
+  scroll-margin-top: 56px;
+}
+
+.section--address {
+  padding-left: 24px;
+}
+
+.list-addresses {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.address--icon {
+  fill: #a96321;
+}
+
+.address--icon:hover {
+  fill: #38281e;
+}
+
+h1 {
+  text-align: left;
+  font-size: 32px;
+  font-weight: normal;
+  color: #403a31;
+}
+
+
+h2 {
+  text-align: left;
+  font-size: 22px;
+  font-weight: normal;
+  color: #554e42;
+}
+
+.h2-like {
+  border-bottom: 1px solid #A77550;
+  text-align: left;
+  font-size: 28px;
+  font-weight: normal;
+  color: #554e42;
+}
+
+h3 {
+  margin-left: 22px;
+  font-size: 22px;
+  font-weight: normal;
+  color: #6a6152;
+}
+
+.code--listing {
+  padding-left: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  background-color: #9c9e91;
+}
+
+.footer--bottom {
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  background-color: #a96321
+}
+
+.footer--a {
+  margin: 20px;
+}
+
+.footer--paragraph {
+  margin: 8px;
+}
+
+.footer--icon {
+  fill: white;
+}
+
+.footer--icon:hover {
+  fill: #38281e;
+}
